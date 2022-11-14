@@ -13,7 +13,8 @@ public class CreateAnAccount_Page {
 	 @FindBy(id = "password-input-field") WebElement Password_Field;
 	 @FindBy(id = "zipCode") WebElement ZipCode_Field;
 	 @FindBy(xpath = "//input[@id='phone']") WebElement Phone_Field; 
-	 @FindBy(xpath = "//div[@class='checkbox-btn'] / child:: input[@id='kmsi-checkbox']") WebElement kmsi_Checkbox;
+	 //@FindBy(xpath = "//div[@class='checkbox-btn'] / child:: input[@id='kmsi-checkbox']") WebElement kmsi_Checkbox;
+	@FindBy(xpath = "//input[@id='kmsi-checkbox']") WebElement kmsi_Checkbox;
 	 @FindBy(id = "verify-phone-checkbox") WebElement Verifyphone_Checkbox;
 	 @FindBy(xpath = "//div[@class='recaptcha-checkbox-border'  and @role='presentation' ]") WebElement Captcha_box;
 	 @FindBy(xpath = "//span[text()='Create an Account']") WebElement CreateAnAccount_Button;
