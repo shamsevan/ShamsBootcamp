@@ -3,13 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="TestNGPackages.HomeDepotTestNG">
+      <class name="RestAssured_Tasks.PostMethod">
         <methods>
-          <include name="HomeDepotSignUPTest"/>
-          <include name="Ibrowsers"/>
-          <include name="afterClass"/>
+          <include name="f"/>
         </methods>
-      </class> <!-- TestNGPackages.HomeDepotTestNG -->
+      </class> <!-- RestAssured_Tasks.PostMethod -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
